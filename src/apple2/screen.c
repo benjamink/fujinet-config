@@ -20,6 +20,7 @@
 #include <apple2.h>
 #include <peekpoke.h>
 #include <6502.h>
+#define allow_lowercase(onoff)
 #endif
 
 #define MAX_SMARTPORT	4

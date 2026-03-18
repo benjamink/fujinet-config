@@ -2,8 +2,8 @@
 #include <stdint.h>
 
 typedef struct {
-  uint8_t slot:4;
-  uint8_t drive:4;
+  unsigned int slot:4;
+  unsigned int drive:4;
   uint8_t fuji;
 } DiskII_SlotDrive;
 

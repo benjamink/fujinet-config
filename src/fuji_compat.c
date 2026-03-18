@@ -7,7 +7,7 @@
 
 bool fuji_open_directory2(uint8_t hs, const char *p, const char *f)
 {
-  char *_p = p;
+  const char *_p = p;
   if (f[0] != 0x00)
   {
     // We have a filter, create a directory+filter string
